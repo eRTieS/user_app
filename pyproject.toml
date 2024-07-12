@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "user-app"
+version = "0.1.0"
+description = "Test Task - User List Application"
+authors = ["Rumen Tsvetkov <rtsvetkov@keemail.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
